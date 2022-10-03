@@ -1,0 +1,74 @@
+body{
+  background-color: #242424;
+  font-family: 'Inter', sans-serif;
+}
+
+.App{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column ;
+  width: 40%
+}
+
+.title{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(#FF01FB, #4D009B);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: 25px
+}
+
+.image{
+  width: 25%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputs{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input-text{
+  background-color: #242424;
+  border: none;
+  border-bottom: 2px solid #7115CE;
+  text-align: center;
+  font-size: 18px;
+  width: 40%;
+  outline: 0;
+  color: white;
+}
+
+.button{
+  background: rgb(62,0,88);
+  background: linear-gradient(0deg, rgba(62,0,88,1) 0%, rgba(112,47,159,1) 51%, rgba(171,0,255,1) 90%);
+  border: none;
+  padding: 10px 30px;
+  margin-top: 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.resultado{
+  margin-top: 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  color: white;
+
+}
